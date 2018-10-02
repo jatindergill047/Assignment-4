@@ -4,40 +4,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Rajdhani|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
-    <title>Aroma.com</title>
+    <title>Hot & Cool</title>
 </head>
 <body>
-    <div class="hero">
-       
-    </div>
-
     <header>
-        <div class="wrapper">
+
+         <div id='slidebar'>
+                <i class="fas fa-times fa-2x hamburger-icon" onclick='toggleSlidebar()'></i>
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./html/clothing.html">clothing</a></li>
+                <li><a href="./html/about-us.html">about us</a></li>
+                <li><a href="./html/contact-us.html">contact us</a></li>
+            </ul>
+        </div>  
+
+       <div class="wrapper">
+
+            <i class="fas fa-bars fa-2x hamburger-icon" onclick='toggleSlidebar()'></i>
+
             <div class="logo">
-                logo
+                
             </div>
             <div class="menu">
-                menu
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./html/clothing.html">clothing</a></li>
+                    <li><a href="./html/about-us.html">about us</a></li>
+                    <li><a href="./html/contact-us.html">contact us</a></li>
+                </ul>
             </div>
             <div class="search">
-                search
+                <i class="fas fa-search fa-lg"></a></i>
             </div>
         </div>
     </header>
 
-    <main>
-        <div>
+    <div class="hero">
+        
+    </div>
 
+    <main class="home-page">
+        <div class="winterwear">
+            <div class="img-div">
+                <a href="#"><img src="./img/new-winterwear.jpg" alt="winterwear"></a>
+            </div>
+            <div class="sm-img-div">
+                <a href="#"></a><img src="./img/new-winterwear-sm.jpg" alt="sm-winterwear"></a>
+            </div>
         </div>
+
+<!-- *************** -| Grid Secton |- ************************* -->
+
+        <div class="grid">
+            <div class="container">
+                <div class="card">
+                    <img src="./img/img-1.jpg" alt="img-1">
+                    <div class="card-content">
+                        <h1>Summer sale</h1>
+                        <a href="#">Shop now </a>
+                        <!-- <p>paragraph of card image that explian ablout image</p> -->
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./img/hoodie.jpg" alt="hoodie">
+                    <div class="card-content">
+                        <h1>need one now : hoodies</h1>
+                        <a href="#">Shop now </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sale-bar">
+                <a href="#"> <h1> 40% Sale</h1> </a>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="./img/a-men-gray-sweater.jpg" alt="img-1">
+                    <div class="card-content">
+                            <h1>sweaters</h1>
+                            <a href="#">Shop now </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/coats.jpg" alt="img-1">
+                    <div class="card-content">
+                            <h1>coats</h1>
+                            <a href="#">Shop now </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/boots.jpg" alt="img-1">
+                    <div class="card-content">
+                            <h1>boots on sale</h1>
+                            <a href="#">Shop now </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="./img/long-img-1.jpg" alt="img-1">
+                    <div class="card-content">
+                        <h1>vintage Collection</h1>
+                        <a href="#">Shop now </a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./img/long-img-2.jpg" alt="img-1">
+                    <div class="card-content">
+                        <h1>tailored</h1>
+                        <a href="#">Shop now </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
-    <footer>
-        <div>
+<!-- *************** -| Footer Secton |- ************************* -->
 
+
+    <footer>
+        <div class="row">
+            <div class="column small-12 medium-6 large-3">
+                <h4>about us</h4>
+                <ul>
+                    <li><a href="#">Hot and Cool</a></li>
+                    <li><a href="#">Jobs & Careers</a></li>
+                    <li><a href="#">Wholesale Inquiries</a></li>
+                    <li><a href="#">Retail</a></li>
+                </ul>
+            </div>
+            <div class="column small-12 medium-6 large-3">
+                <h4>Customer service</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="column small-12 medium-6 large-3">
+                <h4>terms of use</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Promotion</a></li>
+                </ul>
+            </div>
+            <div class="column small-12 medium-6 large-3">
+                <h4>follow us </h4>
+                <ul>
+                    <li><i class="fab fa-facebook-square fa-lg"></i><span>facebook</span></li>
+                    <li><i class="fab fa-instagram fa-lg"></i><span>instagram</span></li>
+                    <li><i class="fab fa-twitter-square fa-lg"></i><span>twitter</span></li>
+                    <li><i class="fab fa-youtube-square fa-lg"></i><span>youtube</span></li>
+                </ul>
+            </div>
+            <h6>All right reserved @ hot and cool</h6>
         </div>
     </footer>
 
+    <script src="./js/logic.js"></script> 
 </body>
 </html>
